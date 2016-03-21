@@ -1,0 +1,38 @@
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+footer {
+    margin: 50px 0;
+}
+
+img{
+	width: 80%;
+	
+}
+
+#expressLogo{
+	width: 80%;
+	height: 120px;
+}
+
+#jumbo{
+	margin-bottom: 0;
+	background-color: white
+}
+
+.navbar {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+  font-weight: 700;
+}
+
+.center-element{
+	text-align: center;
+}
+
+.center-div{
+	margin: 0 auto;
+}
+
+
