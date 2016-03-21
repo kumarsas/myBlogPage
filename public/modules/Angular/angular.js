@@ -1,9 +1,9 @@
-var app = angular.module( 'ashishBlogApp.modules.TutorialAngularJS', []);
+var app = angular.module( 'ashishBlogApp.modules.Angular', []);
 
 app.config( ['$routeProvider', function( $routeProvider ){
 	$routeProvider
 		.when('/angular', {
-			templateUrl:'modules/TutorialAngularJS/tutorialAngular.html'
+			templateUrl:'modules/Angular/angular.html'
 		});
 }]);
 

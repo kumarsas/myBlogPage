@@ -3,7 +3,7 @@ var app = angular.module( 'ashishBlogApp', [
 	'ashishBlogApp.modules.Home',
 	'ashishBlogApp.modules.About',
 	'ashishBlogApp.modules.Contact',
-	'ashishBlogApp.modules.TutorialAngularJS',
+	'ashishBlogApp.modules.Angular',
 	'ashishBlogApp.modules.TutorialExpressJS',
 	'ashishBlogApp.modules.TutorialMongodb',
 	'ashishBlogApp.modules.TutorialNodeJS'
