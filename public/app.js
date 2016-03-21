@@ -6,7 +6,7 @@ var app = angular.module( 'ashishBlogApp', [
 	'ashishBlogApp.modules.Angular',
 	'ashishBlogApp.modules.Express',
 	'ashishBlogApp.modules.Mongodb',
-	'ashishBlogApp.modules.nodejs'
+	'ashishBlogApp.modules.node'
 ]);
 
 app.config( ['$routeProvider', function( $routeProvider ){

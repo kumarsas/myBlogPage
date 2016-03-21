@@ -1,9 +1,9 @@
-var app = angular.module( 'ashishBlogApp.modules.nodejs', []);
+var app = angular.module( 'ashishBlogApp.modules.node', []);
 
 app.config( ['$routeProvider', function( $routeProvider ){
 	$routeProvider
 		.when('/node', {
-			templateUrl:'modules/nodejs/node.html'
+			templateUrl:'modules/node/node.html'
 		});
 }]);
 
