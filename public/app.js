@@ -3,10 +3,10 @@ var app = angular.module( 'ashishBlogApp', [
 	'ashishBlogApp.modules.Home',
 	'ashishBlogApp.modules.About',
 	'ashishBlogApp.modules.Contact',
-	'ashishBlogApp.modules.Tutorial_AngularJS',
-	'ashishBlogApp.modules.Tutorial_ExpressJS',
-	'ashishBlogApp.modules.Tutorial_Mongodb',
-	'ashishBlogApp.modules.Tutorial_NodeJS'
+	'ashishBlogApp.modules.TutorialAngularJS',
+	'ashishBlogApp.modules.TutorialExpressJS',
+	'ashishBlogApp.modules.TutorialMongodb',
+	'ashishBlogApp.modules.TutorialNodeJS'
 ]);
 
 app.config( ['$routeProvider', function( $routeProvider ){

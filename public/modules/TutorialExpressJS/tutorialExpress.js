@@ -1,9 +1,9 @@
-var app = angular.module( 'ashishBlogApp.modules.Tutorial_ExpressJS', []);
+var app = angular.module( 'ashishBlogApp.modules.TutorialExpressJS', []);
 
 app.config( ['$routeProvider', function( $routeProvider ){
 	$routeProvider
 		.when('/express', {
-			templateUrl:'modules/Tutorial_ExpressJS/tutorialExpress.html'
+			templateUrl:'modules/TutorialExpressJS/tutorialExpress.html'
 		});
 }]);
 
