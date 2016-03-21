@@ -4,9 +4,9 @@ var app = angular.module( 'ashishBlogApp', [
 	'ashishBlogApp.modules.About',
 	'ashishBlogApp.modules.Contact',
 	'ashishBlogApp.modules.Angular',
-	'ashishBlogApp.modules.TutorialExpressJS',
-	'ashishBlogApp.modules.TutorialMongodb',
-	'ashishBlogApp.modules.TutorialNodeJS'
+	'ashishBlogApp.modules.Express',
+	'ashishBlogApp.modules.Mongodb',
+	'ashishBlogApp.modules.nodejs'
 ]);
 
 app.config( ['$routeProvider', function( $routeProvider ){

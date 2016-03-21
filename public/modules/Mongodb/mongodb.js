@@ -1,9 +1,9 @@
-var app = angular.module( 'ashishBlogApp.modules.TutorialMongodb', []);
+var app = angular.module( 'ashishBlogApp.modules.Mongodb', []);
 
 app.config( ['$routeProvider', function( $routeProvider ){
 	$routeProvider
 		.when('/mongodb', {
-			templateUrl:'modules/TutorialMongodb/tutorialMongoDb.html'
+			templateUrl:'modules/Mongodb/mongodb.html'
 		});
 }]);
 app.controller('link2Ctrl', function( $scope ){
